@@ -66,7 +66,7 @@ body {
 
 .nft_title {
   font-size: 2.4rem;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 1.5rem;
   transition: all 0.3s;
 }
@@ -120,17 +120,18 @@ body {
   height: 3.2rem;
 }
 
-.nft_creator_name {
+.nft_creator {
   font-size: 1.4rem;
   color: hsl(215, 51%, 70%);
 }
 
-strong {
+.nft_creator_name {
+  font-weight: 400;
   color: hsl(0, 0%, 100%);
   transition: all 0.3s;
 }
 
-strong:hover {
+.nft_creator_name:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
 }
